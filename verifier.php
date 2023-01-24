@@ -20,11 +20,10 @@
 
 <h3>
     <?php
-    $paragrafo = $_POST["paragrafo"];
-    $censura = $_POST["censurare"];
+    // $paragrafo = $_POST["paragrafo"];
+    // $censura = $_POST["censurare"];
 
-    str_replace($censura, '***', $paragrafo);
-    echo $paragrafo;
+    echo str_replace($censura, '***', $paragrafo);
     echo $lunghezzaPargrafo;
 
     ?>
