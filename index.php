@@ -11,8 +11,8 @@
 <body>
     <h1>php</h1>
     <form action="./verifier.php" method="post">
-        <input type="text" size="50" name="paragrafo">
-        <input type="text" size="15" name="censurare">
+        <input type="text" size="50" name="paragrafo" placeholder="testo">
+        <input type="text" size="15" name="censurare" placeholder="censura">
         <button>Submit</button>
     </form>
 </body>
